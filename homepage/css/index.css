@@ -1,1 +1,50 @@
+body {
+    background-color: #e3e1dc;
+}
 
+header,
+footer {
+    background-color: #151a17;
+    color: #e3e1dc;
+    padding: 10px;
+}
+
+.profile-container {
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.icon-container {
+    height: 150px;
+    width: 150px;
+    background-color: salmon;
+    border-radius: 100px;
+    margin: auto;
+}
+
+
+
+.cover {
+    position: fixed;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    z-index: 114514;
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+
+
+
+}
+
+#cover1 {
+    top: 0;
+    background-color: #63df0f;
+}
+
+#cover2 {
+    top: 50%;
+    background-color: #414648;
+}
