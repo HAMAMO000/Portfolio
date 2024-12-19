@@ -90,6 +90,8 @@ footer {
 .main-container {
     height: 80vh;
     overflow-y: scroll;
+    width: 100%;
+
 }
 
 .main-container::-webkit-scrollbar {
