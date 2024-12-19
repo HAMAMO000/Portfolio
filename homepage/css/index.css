@@ -102,8 +102,8 @@ footer {
 
 
 .works-container {
-    width: 500px;
-    height: 90vw;
+    width: 90vh;
+    height: 500px;
     background-color: var(--sub-color-2);
     color: var(--main-color);
     margin: auto;
