@@ -24,6 +24,7 @@ header {
 
 body {
     background-color: var(--main-color);
+    -webkit-user-select: none;
 }
 
 header,
@@ -91,7 +92,6 @@ footer {
     height: 80vh;
     overflow-y: scroll;
     width: 100%;
-
 }
 
 .main-container::-webkit-scrollbar {
@@ -118,4 +118,8 @@ footer {
     background-color: var(--main-color);
     margin: 20px;
 
+}
+
+.works-container::-webkit-scrollbar {
+    display: none;
 }
