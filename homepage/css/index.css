@@ -102,7 +102,7 @@ footer {
 
 
 .works-container {
-    width: 1000px;
+    width: 90vw;
     height: 400px;
     background-color: var(--sub-color-2);
     color: var(--main-color);
